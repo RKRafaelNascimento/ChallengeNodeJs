@@ -1,0 +1,35 @@
+{
+  "name": "ChallengeNodeJs",
+  "version": "1.0.0",
+  "description": "Desafio NodeJs Mutant",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "contributors": [
+    "Rafael Nascimento <rafael.nascimento@fcamara.com.br>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RKRafaelNascimento/ChallengeNodeJs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RKRafaelNascimento/ChallengeNodeJs/issues"
+  },
+  "homepage": "https://github.com/RKRafaelNascimento/ChallengeNodeJs#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-node": "^9.0.1",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-standard": "^4.0.0"
+  }
+}
