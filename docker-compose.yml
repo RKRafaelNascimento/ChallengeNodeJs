@@ -1,0 +1,17 @@
+version: '3'
+services:
+  nodejs:
+    build: .
+    restart: always
+    ports:
+      - 8080:3000
+    links:
+      - mongo
+  mongo:
+    image: mongo
+    environment:
+      MONGO_INITDB_DATABASE: challenge
+    volumes:
+      - ../db:/data/db
+    ports:
+      - 27017:27017

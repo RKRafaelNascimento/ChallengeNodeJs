@@ -12,7 +12,7 @@ for (const i in routes) {
 const start = async () => {
   try {
     await db.start()
-    await fastify.listen(process.env.PORT || 3000)
+    await fastify.listen(process.env.PORT || 3000, '0.0.0.0')
     await populateUsers()
 
     fastify.log.info(`server listening on ${fastify.server.address().port}`)

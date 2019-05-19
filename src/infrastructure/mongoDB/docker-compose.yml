@@ -9,3 +9,5 @@ services:
       MONGO_INITDB_DATABASE: challenge
     ports:
       - 27017:27017
+    volumes:
+      - ../../../../db:/data/db
