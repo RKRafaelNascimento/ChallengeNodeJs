@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 const port = process.env.PORT_MONGO || 27017
-const connection = process.env.MONGO_HOST || 'mongodb://localhost:' + port + '/challenge'
+const connection = process.env.MONGO_HOST || 'mongodb://mongo:' + port + '/challenge'
 
 module.exports.start = async () => {
   mongoose
