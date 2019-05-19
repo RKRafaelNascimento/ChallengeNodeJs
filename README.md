@@ -10,7 +10,7 @@
 
 `npm install`
 
-Dentro do diretorio src/infrastructure/mongoDB/cçient.js troque a url para `mongodb://localhost:' + port + '/challenge`
+Dentro do diretorio src/infrastructure/mongoDB/client.js altere a url para `mongodb://localhost:' + port + '/challenge`
 
 ### Inicializando o Servidor
 
@@ -30,7 +30,6 @@ ou no diretorio raiz execute:
 
 `docker-compose up`
 
-- Aguarde alguns minutos que vai iniciar a aplicação.
 - App na PORT: 8080 e MONGO na PORT: 27017
 
 ### Sobre aplicação
