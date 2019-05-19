@@ -1,4 +1,5 @@
 const { userService } = require('../services/index')
+const { errors } = require('../utils/body')
 async function routes (fastify, options) {
   fastify.get('/user', async (request, reply) => {
     try {
@@ -16,7 +17,9 @@ async function routes (fastify, options) {
       let response = await userService.find(query, field, params)
 
       reply.status(200).send(response)
-    } catch (err) {}
+    } catch (err) {
+      return errors(err)
+    }
   })
 }
 module.exports = routes
