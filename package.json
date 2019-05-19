@@ -1,0 +1,47 @@
+{
+  "name": "ChallengeNodeJs",
+  "version": "1.0.0",
+  "description": "Desafio NodeJs Mutant",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "scripts": {
+    "nodemon": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "test": "jest"
+  },
+  "contributors": [
+    "Rafael Nascimento <rkrafael.nascimento@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RKRafaelNascimento/ChallengeNodeJs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RKRafaelNascimento/ChallengeNodeJs/issues"
+  },
+  "homepage": "https://github.com/RKRafaelNascimento/ChallengeNodeJs#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-node": "^9.0.1",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "jest": "^24.8.0",
+    "nodemon": "^1.19.0",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "fastify": "^2.3.0",
+    "fastify-cors": "^2.1.3",
+    "joi": "^14.3.1",
+    "mongoose": "^5.5.9"
+  }
+}

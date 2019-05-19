@@ -1,0 +1,252 @@
+{
+	"info": {
+		"_postman_id": "08d8ecbe-f41a-4ba6-b487-60b24e2dad4a",
+		"name": "challenge-nodejs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "user",
+			"item": [
+				{
+					"name": "users",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:3000/user",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"user"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "users",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "http://localhost:3000/user",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"user"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "access-control-allow-origin",
+									"value": "*"
+								},
+								{
+									"key": "content-type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "content-length",
+									"value": "4433"
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 19 May 2019 05:12:45 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"address\": {\n            \"geo\": {\n                \"lat\": \"-37.3159\",\n                \"lng\": \"81.1496\"\n            },\n            \"street\": \"Kulas Light\",\n            \"suite\": \"Apt. 556\",\n            \"city\": \"Gwenborough\",\n            \"zipcode\": \"92998-3874\"\n        },\n        \"company\": {\n            \"name\": \"Romaguera-Crona\",\n            \"catchPhrase\": \"Multi-layered client-server neural-net\",\n            \"bs\": \"harness real-time e-markets\"\n        },\n        \"_id\": \"5ce0c746c990b92f3c97977c\",\n        \"name\": \"Leanne Graham\",\n        \"username\": \"Bret\",\n        \"email\": \"Sincere@april.biz\",\n        \"phone\": \"1-770-736-8031 x56442\",\n        \"website\": \"hildegard.org\",\n        \"__v\": 0\n    },\n    {\n        \"address\": {\n            \"geo\": {\n                \"lat\": \"-43.9509\",\n                \"lng\": \"-34.4618\"\n            },\n            \"street\": \"Victor Plains\",\n            \"suite\": \"Suite 879\",\n            \"city\": \"Wisokyburgh\",\n            \"zipcode\": \"90566-7771\"\n        },\n        \"company\": {\n            \"name\": \"Deckow-Crist\",\n            \"catchPhrase\": \"Proactive didactic contingency\",\n            \"bs\": \"synergize scalable supply-chains\"\n        },\n        \"_id\": \"5ce0c746c990b92f3c97977d\",\n        \"name\": \"Ervin Howell\",\n        \"username\": \"Antonette\",\n        \"email\": \"Shanna@melissa.tv\",\n        \"phone\": \"010-692-6593 x09125\",\n        \"website\": \"anastasia.net\",\n        \"__v\": 0\n    },\n    {\n        \"address\": {\n            \"geo\": {\n                \"lat\": \"-68.6102\",\n                \"lng\": \"-47.0653\"\n            },\n            \"street\": \"Douglas Extension\",\n            \"suite\": \"Suite 847\",\n            \"city\": \"McKenziehaven\",\n            \"zipcode\": \"59590-4157\"\n        },\n        \"company\": {\n            \"name\": \"Romaguera-Jacobson\",\n            \"catchPhrase\": \"Face to face bifurcated interface\",\n            \"bs\": \"e-enable strategic applications\"\n        },\n        \"_id\": \"5ce0c746c990b92f3c97977e\",\n        \"name\": \"Clementine Bauch\",\n        \"username\": \"Samantha\",\n        \"email\": \"Nathan@yesenia.net\",\n        \"phone\": \"1-463-123-4447\",\n        \"website\": \"ramiro.info\",\n        \"__v\": 0\n    },\n    {\n        \"address\": {\n            \"geo\": {\n                \"lat\": \"29.4572\",\n                \"lng\": \"-164.2990\"\n            },\n            \"street\": \"Hoeger Mall\",\n            \"suite\": \"Apt. 692\",\n            \"city\": \"South Elvis\",\n            \"zipcode\": \"53919-4257\"\n        },\n        \"company\": {\n            \"name\": \"Robel-Corkery\",\n            \"catchPhrase\": \"Multi-tiered zero tolerance productivity\",\n            \"bs\": \"transition cutting-edge web services\"\n        },\n        \"_id\": \"5ce0c746c990b92f3c97977f\",\n        \"name\": \"Patricia Lebsack\",\n        \"username\": \"Karianne\",\n        \"email\": \"Julianne.OConner@kory.org\",\n        \"phone\": \"493-170-9623 x156\",\n        \"website\": \"kale.biz\",\n        \"__v\": 0\n    },\n    {\n        \"address\": {\n            \"geo\": {\n                \"lat\": \"-31.8129\",\n                \"lng\": \"62.5342\"\n            },\n            \"street\": \"Skiles Walks\",\n            \"suite\": \"Suite 351\",\n            \"city\": \"Roscoeview\",\n            \"zipcode\": \"33263\"\n        },\n        \"company\": {\n            \"name\": \"Keebler LLC\",\n            \"catchPhrase\": \"User-centric fault-tolerant solution\",\n            \"bs\": \"revolutionize end-to-end systems\"\n        },\n        \"_id\": \"5ce0c746c990b92f3c979780\",\n        \"name\": \"Chelsey Dietrich\",\n        \"username\": \"Kamren\",\n        \"email\": \"Lucio_Hettinger@annie.ca\",\n        \"phone\": \"(254)954-1289\",\n        \"website\": \"demarco.info\",\n        \"__v\": 0\n    },\n    {\n        \"address\": {\n            \"geo\": {\n                \"lat\": \"-71.4197\",\n                \"lng\": \"71.7478\"\n            },\n            \"street\": \"Norberto Crossing\",\n            \"suite\": \"Apt. 950\",\n            \"city\": \"South Christy\",\n            \"zipcode\": \"23505-1337\"\n        },\n        \"company\": {\n            \"name\": \"Considine-Lockman\",\n            \"catchPhrase\": \"Synchronised bottom-line interface\",\n            \"bs\": \"e-enable innovative applications\"\n        },\n        \"_id\": \"5ce0c746c990b92f3c979781\",\n        \"name\": \"Mrs. Dennis Schulist\",\n        \"username\": \"Leopoldo_Corkery\",\n        \"email\": \"Karley_Dach@jasper.info\",\n        \"phone\": \"1-477-935-8478 x6430\",\n        \"website\": \"ola.org\",\n        \"__v\": 0\n    },\n    {\n        \"address\": {\n            \"geo\": {\n                \"lat\": \"24.8918\",\n                \"lng\": \"21.8984\"\n            },\n            \"street\": \"Rex Trail\",\n            \"suite\": \"Suite 280\",\n            \"city\": \"Howemouth\",\n            \"zipcode\": \"58804-1099\"\n        },\n        \"company\": {\n            \"name\": \"Johns Group\",\n            \"catchPhrase\": \"Configurable multimedia task-force\",\n            \"bs\": \"generate enterprise e-tailers\"\n        },\n        \"_id\": \"5ce0c746c990b92f3c979782\",\n        \"name\": \"Kurtis Weissnat\",\n        \"username\": \"Elwyn.Skiles\",\n        \"email\": \"Telly.Hoeger@billy.biz\",\n        \"phone\": \"210.067.6132\",\n        \"website\": \"elvis.io\",\n        \"__v\": 0\n    },\n    {\n        \"address\": {\n            \"geo\": {\n                \"lat\": \"-14.3990\",\n                \"lng\": \"-120.7677\"\n            },\n            \"street\": \"Ellsworth Summit\",\n            \"suite\": \"Suite 729\",\n            \"city\": \"Aliyaview\",\n            \"zipcode\": \"45169\"\n        },\n        \"company\": {\n            \"name\": \"Abernathy Group\",\n            \"catchPhrase\": \"Implemented secondary concept\",\n            \"bs\": \"e-enable extensible e-tailers\"\n        },\n        \"_id\": \"5ce0c746c990b92f3c979783\",\n        \"name\": \"Nicholas Runolfsdottir V\",\n        \"username\": \"Maxime_Nienow\",\n        \"email\": \"Sherwood@rosamond.me\",\n        \"phone\": \"586.493.6943 x140\",\n        \"website\": \"jacynthe.com\",\n        \"__v\": 0\n    },\n    {\n        \"address\": {\n            \"geo\": {\n                \"lat\": \"24.6463\",\n                \"lng\": \"-168.8889\"\n            },\n            \"street\": \"Dayna Park\",\n            \"suite\": \"Suite 449\",\n            \"city\": \"Bartholomebury\",\n            \"zipcode\": \"76495-3109\"\n        },\n        \"company\": {\n            \"name\": \"Yost and Sons\",\n            \"catchPhrase\": \"Switchable contextually-based project\",\n            \"bs\": \"aggregate real-time technologies\"\n        },\n        \"_id\": \"5ce0c746c990b92f3c979784\",\n        \"name\": \"Glenna Reichert\",\n        \"username\": \"Delphine\",\n        \"email\": \"Chaim_McDermott@dana.io\",\n        \"phone\": \"(775)976-6794 x41206\",\n        \"website\": \"conrad.com\",\n        \"__v\": 0\n    },\n    {\n        \"address\": {\n            \"geo\": {\n                \"lat\": \"-38.2386\",\n                \"lng\": \"57.2232\"\n            },\n            \"street\": \"Kattie Turnpike\",\n            \"suite\": \"Suite 198\",\n            \"city\": \"Lebsackbury\",\n            \"zipcode\": \"31428-2261\"\n        },\n        \"company\": {\n            \"name\": \"Hoeger LLC\",\n            \"catchPhrase\": \"Centralized empowering task-force\",\n            \"bs\": \"target end-to-end models\"\n        },\n        \"_id\": \"5ce0c746c990b92f3c979785\",\n        \"name\": \"Clementina DuBuque\",\n        \"username\": \"Moriah.Stanton\",\n        \"email\": \"Rey.Padberg@karina.biz\",\n        \"phone\": \"024-648-3804\",\n        \"website\": \"ambrose.net\",\n        \"__v\": 0\n    }\n]"
+						},
+						{
+							"name": "users with work filter and order by name",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "http://localhost:3000/user?filter=work",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"user"
+									],
+									"query": [
+										{
+											"key": "filter",
+											"value": "work"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "access-control-allow-origin",
+									"value": "*"
+								},
+								{
+									"key": "content-type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "content-length",
+									"value": "962"
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 19 May 2019 05:18:12 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"company\": {\n            \"name\": \"Keebler LLC\"\n        },\n        \"name\": \"Chelsey Dietrich\",\n        \"email\": \"Lucio_Hettinger@annie.ca\"\n    },\n    {\n        \"company\": {\n            \"name\": \"Hoeger LLC\"\n        },\n        \"name\": \"Clementina DuBuque\",\n        \"email\": \"Rey.Padberg@karina.biz\"\n    },\n    {\n        \"company\": {\n            \"name\": \"Romaguera-Jacobson\"\n        },\n        \"name\": \"Clementine Bauch\",\n        \"email\": \"Nathan@yesenia.net\"\n    },\n    {\n        \"company\": {\n            \"name\": \"Deckow-Crist\"\n        },\n        \"name\": \"Ervin Howell\",\n        \"email\": \"Shanna@melissa.tv\"\n    },\n    {\n        \"company\": {\n            \"name\": \"Yost and Sons\"\n        },\n        \"name\": \"Glenna Reichert\",\n        \"email\": \"Chaim_McDermott@dana.io\"\n    },\n    {\n        \"company\": {\n            \"name\": \"Johns Group\"\n        },\n        \"name\": \"Kurtis Weissnat\",\n        \"email\": \"Telly.Hoeger@billy.biz\"\n    },\n    {\n        \"company\": {\n            \"name\": \"Romaguera-Crona\"\n        },\n        \"name\": \"Leanne Graham\",\n        \"email\": \"Sincere@april.biz\"\n    },\n    {\n        \"company\": {\n            \"name\": \"Considine-Lockman\"\n        },\n        \"name\": \"Mrs. Dennis Schulist\",\n        \"email\": \"Karley_Dach@jasper.info\"\n    },\n    {\n        \"company\": {\n            \"name\": \"Abernathy Group\"\n        },\n        \"name\": \"Nicholas Runolfsdottir V\",\n        \"email\": \"Sherwood@rosamond.me\"\n    },\n    {\n        \"company\": {\n            \"name\": \"Robel-Corkery\"\n        },\n        \"name\": \"Patricia Lebsack\",\n        \"email\": \"Julianne.OConner@kory.org\"\n    }\n]"
+						},
+						{
+							"name": "users with address filter and search only users with suite address ",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "http://localhost:3000/user?filter=address",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"user"
+									],
+									"query": [
+										{
+											"key": "filter",
+											"value": "address"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "access-control-allow-origin",
+									"value": "*"
+								},
+								{
+									"key": "content-type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "content-length",
+									"value": "3080"
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 19 May 2019 05:21:34 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"address\": {\n            \"geo\": {\n                \"lat\": \"-43.9509\",\n                \"lng\": \"-34.4618\"\n            },\n            \"street\": \"Victor Plains\",\n            \"suite\": \"Suite 879\",\n            \"city\": \"Wisokyburgh\",\n            \"zipcode\": \"90566-7771\"\n        },\n        \"company\": {\n            \"name\": \"Deckow-Crist\",\n            \"catchPhrase\": \"Proactive didactic contingency\",\n            \"bs\": \"synergize scalable supply-chains\"\n        },\n        \"_id\": \"5ce0c746c990b92f3c97977d\",\n        \"name\": \"Ervin Howell\",\n        \"username\": \"Antonette\",\n        \"email\": \"Shanna@melissa.tv\",\n        \"phone\": \"010-692-6593 x09125\",\n        \"website\": \"anastasia.net\",\n        \"__v\": 0\n    },\n    {\n        \"address\": {\n            \"geo\": {\n                \"lat\": \"-68.6102\",\n                \"lng\": \"-47.0653\"\n            },\n            \"street\": \"Douglas Extension\",\n            \"suite\": \"Suite 847\",\n            \"city\": \"McKenziehaven\",\n            \"zipcode\": \"59590-4157\"\n        },\n        \"company\": {\n            \"name\": \"Romaguera-Jacobson\",\n            \"catchPhrase\": \"Face to face bifurcated interface\",\n            \"bs\": \"e-enable strategic applications\"\n        },\n        \"_id\": \"5ce0c746c990b92f3c97977e\",\n        \"name\": \"Clementine Bauch\",\n        \"username\": \"Samantha\",\n        \"email\": \"Nathan@yesenia.net\",\n        \"phone\": \"1-463-123-4447\",\n        \"website\": \"ramiro.info\",\n        \"__v\": 0\n    },\n    {\n        \"address\": {\n            \"geo\": {\n                \"lat\": \"-31.8129\",\n                \"lng\": \"62.5342\"\n            },\n            \"street\": \"Skiles Walks\",\n            \"suite\": \"Suite 351\",\n            \"city\": \"Roscoeview\",\n            \"zipcode\": \"33263\"\n        },\n        \"company\": {\n            \"name\": \"Keebler LLC\",\n            \"catchPhrase\": \"User-centric fault-tolerant solution\",\n            \"bs\": \"revolutionize end-to-end systems\"\n        },\n        \"_id\": \"5ce0c746c990b92f3c979780\",\n        \"name\": \"Chelsey Dietrich\",\n        \"username\": \"Kamren\",\n        \"email\": \"Lucio_Hettinger@annie.ca\",\n        \"phone\": \"(254)954-1289\",\n        \"website\": \"demarco.info\",\n        \"__v\": 0\n    },\n    {\n        \"address\": {\n            \"geo\": {\n                \"lat\": \"24.8918\",\n                \"lng\": \"21.8984\"\n            },\n            \"street\": \"Rex Trail\",\n            \"suite\": \"Suite 280\",\n            \"city\": \"Howemouth\",\n            \"zipcode\": \"58804-1099\"\n        },\n        \"company\": {\n            \"name\": \"Johns Group\",\n            \"catchPhrase\": \"Configurable multimedia task-force\",\n            \"bs\": \"generate enterprise e-tailers\"\n        },\n        \"_id\": \"5ce0c746c990b92f3c979782\",\n        \"name\": \"Kurtis Weissnat\",\n        \"username\": \"Elwyn.Skiles\",\n        \"email\": \"Telly.Hoeger@billy.biz\",\n        \"phone\": \"210.067.6132\",\n        \"website\": \"elvis.io\",\n        \"__v\": 0\n    },\n    {\n        \"address\": {\n            \"geo\": {\n                \"lat\": \"-14.3990\",\n                \"lng\": \"-120.7677\"\n            },\n            \"street\": \"Ellsworth Summit\",\n            \"suite\": \"Suite 729\",\n            \"city\": \"Aliyaview\",\n            \"zipcode\": \"45169\"\n        },\n        \"company\": {\n            \"name\": \"Abernathy Group\",\n            \"catchPhrase\": \"Implemented secondary concept\",\n            \"bs\": \"e-enable extensible e-tailers\"\n        },\n        \"_id\": \"5ce0c746c990b92f3c979783\",\n        \"name\": \"Nicholas Runolfsdottir V\",\n        \"username\": \"Maxime_Nienow\",\n        \"email\": \"Sherwood@rosamond.me\",\n        \"phone\": \"586.493.6943 x140\",\n        \"website\": \"jacynthe.com\",\n        \"__v\": 0\n    },\n    {\n        \"address\": {\n            \"geo\": {\n                \"lat\": \"24.6463\",\n                \"lng\": \"-168.8889\"\n            },\n            \"street\": \"Dayna Park\",\n            \"suite\": \"Suite 449\",\n            \"city\": \"Bartholomebury\",\n            \"zipcode\": \"76495-3109\"\n        },\n        \"company\": {\n            \"name\": \"Yost and Sons\",\n            \"catchPhrase\": \"Switchable contextually-based project\",\n            \"bs\": \"aggregate real-time technologies\"\n        },\n        \"_id\": \"5ce0c746c990b92f3c979784\",\n        \"name\": \"Glenna Reichert\",\n        \"username\": \"Delphine\",\n        \"email\": \"Chaim_McDermott@dana.io\",\n        \"phone\": \"(775)976-6794 x41206\",\n        \"website\": \"conrad.com\",\n        \"__v\": 0\n    },\n    {\n        \"address\": {\n            \"geo\": {\n                \"lat\": \"-38.2386\",\n                \"lng\": \"57.2232\"\n            },\n            \"street\": \"Kattie Turnpike\",\n            \"suite\": \"Suite 198\",\n            \"city\": \"Lebsackbury\",\n            \"zipcode\": \"31428-2261\"\n        },\n        \"company\": {\n            \"name\": \"Hoeger LLC\",\n            \"catchPhrase\": \"Centralized empowering task-force\",\n            \"bs\": \"target end-to-end models\"\n        },\n        \"_id\": \"5ce0c746c990b92f3c979785\",\n        \"name\": \"Clementina DuBuque\",\n        \"username\": \"Moriah.Stanton\",\n        \"email\": \"Rey.Padberg@karina.biz\",\n        \"phone\": \"024-648-3804\",\n        \"website\": \"ambrose.net\",\n        \"__v\": 0\n    }\n]"
+						},
+						{
+							"name": "users with websites filter ",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "http://localhost:3000/user?filter=websites",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"user"
+									],
+									"query": [
+										{
+											"key": "filter",
+											"value": "websites"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "access-control-allow-origin",
+									"value": "*"
+								},
+								{
+									"key": "content-type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "content-length",
+									"value": "256"
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 19 May 2019 05:17:00 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"website\": \"hildegard.org\"\n    },\n    {\n        \"website\": \"anastasia.net\"\n    },\n    {\n        \"website\": \"ramiro.info\"\n    },\n    {\n        \"website\": \"kale.biz\"\n    },\n    {\n        \"website\": \"demarco.info\"\n    },\n    {\n        \"website\": \"ola.org\"\n    },\n    {\n        \"website\": \"elvis.io\"\n    },\n    {\n        \"website\": \"jacynthe.com\"\n    },\n    {\n        \"website\": \"conrad.com\"\n    },\n    {\n        \"website\": \"ambrose.net\"\n    }\n]"
+						}
+					]
+				}
+			]
+		}
+	]
+}
