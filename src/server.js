@@ -1,8 +1,13 @@
 const fastify = require('fastify')({ logger: true })
 const db = require('./infrastructure/mongoDB/client')
+const routes = require('./routers/index')
 const { populateUsers } = require('./utils/create-test-data')
 
 fastify.register(require('fastify-cors'))
+
+for (const i in routes) {
+  fastify.register(routes[i])
+}
 
 const start = async () => {
   try {
