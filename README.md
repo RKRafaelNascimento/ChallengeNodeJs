@@ -22,6 +22,8 @@ Dentro do diretorio src/infrastructure/mongoDB/client.js altere a url para `mong
 
 ### Segue os passos abaixo:
 
+Dentro do diretorio src/infrastructure/mongoDB/client.js mantém a url para 'mongodb://mongo:' + port + '/challenge'
+
 Vá ate o diretorio scripts e execute:
 
 `sh start-application.sh`
