@@ -18,6 +18,7 @@ async function routes (fastify, options) {
 
       reply.status(200).send(response)
     } catch (err) {
+      reply.status(400)
       return errors(err)
     }
   })
